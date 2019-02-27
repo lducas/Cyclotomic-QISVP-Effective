@@ -1,5 +1,10 @@
 # Cyclotomic-QISVP-Effective
-Determining the effective approximation factor of quantum algorithm [CDW17] for SVP in cyclotomic ideals
+Determining the effective approximation factor of quantum algorithm [CDW17] for SVP in cyclotomic ideals. THis code comes in support of the article:
+
+On the Shortness of Vectors to be found  by the Ideal-SVP Quantum Algorithm, 
+Léo Ducas, Maxime Plançon, Benjamin Wesolowski.
+
+The article is available `in this repository <https://github.com/lducas/Cyclotomic-QISVP-Effective/blob/master/main.pdf>`__ and soon on `eprint.
 
 > python3 experiment.py --help
 usage: experiment.py [-h] [--step STEP] [--conductor CONDUCTOR]
