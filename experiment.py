@@ -8,9 +8,6 @@ import numpy as np
 from copy import copy
 import logging
 
-def step(answer):
-    "What is your favourite colour?"
-    logging.info(answer)
 
 @begin.start
 @begin.convert(_automatic=True)

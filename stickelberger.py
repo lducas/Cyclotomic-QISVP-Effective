@@ -154,7 +154,7 @@ class StickelbergerCVP:
 
         for it in range(self.iterations):
             C.add(h)
-            # Compute candidate norm with acceleration trick from section TODO REF
+            # Compute candidate norms
             candidate_norms = [np.linalg.norm(d + w, 1) for w in self.R.ws]
             candidate_visited = [((h + ha) in C) for ha in self.R.ws_hash]
 
