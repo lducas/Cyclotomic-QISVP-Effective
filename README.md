@@ -4,7 +4,7 @@ Determining the effective approximation factor of quantum algorithm [CDW17] for 
 On the Shortness of Vectors to be found  by the Ideal-SVP Quantum Algorithm, 
 Léo Ducas, Maxime Plançon, Benjamin Wesolowski.
 
-The article is available in this repository <https://github.com/lducas/Cyclotomic-QISVP-Effective/blob/master/article.pdf> and soon on the IACR eprint.
+The article is available in this repository <https://github.com/lducas/Cyclotomic-QISVP-Effective/blob/master/article.pdf> and on the IACR eprint <https://eprint.iacr.org/2019/234>.
 
 ## Usage 
 ```
