@@ -15,7 +15,7 @@ def pseudo_norm(x) :
     input : x a vector in the Log Embedding
     ouput : log(||Exp(x)||_2)
     '''
-    sup = np.max(x)
+    sup = 0 # np.max(x)
     return sup + log(2 * sum(np.exp(2*(x-sup))) )/2
 
 
@@ -81,8 +81,14 @@ class CyclotomicLog:
         '''
         returns the list of the non-zero bi_j's, together with their linear hash.
         '''
+        #return [-x for x in zs]+zs, [-x for x in zs_hash]+zs_hash
+        return [-x for x in zs], [-x for x in zs_hash]
+        #return zs, zs_hash
+
+
         B_log = []
         B_log_hash = []
+
 
         for za, ha in zip(zs, zs_hash):
             for zb, hb in zip(zs, zs_hash):
@@ -135,11 +141,11 @@ class LogUnitCVP:
         Output: The Log of a short generator of the same ideal
         '''
 
-        if g is None:
-            g = self.instance_generator()
+        #if g is None:
+        #    g = self.instance_generator()
 
-        d = round_off_reduction(self.Basis, self.BasisInv, g)
-        
+        #d = round_off_reduction(self.Basis, self.BasisInv, g)
+        d = 1.*g
         h = 0
         C = set([])
         l = len(self.H.bs)        
