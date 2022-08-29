@@ -6,6 +6,13 @@ Léo Ducas, Maxime Plançon, Benjamin Wesolowski.
 
 The article is available in this repository <https://github.com/lducas/Cyclotomic-QISVP-Effective/blob/master/article.pdf> and on the IACR eprint <https://eprint.iacr.org/2019/234>.
 
+### Acknowledgments
+
+This work was supported by a Veni Innovational Research Grant from NWO under project number
+639.021.645, by the European Union Horizon 2020 Research and Innovation
+Program Grant 780701 (PROMETHEUS) and the ERC Advanced Investigator Grant 740972 (AL-
+GSTRONGCRYPTO
+
 ## Usage 
 ```
 > python3 experiment.py --help
